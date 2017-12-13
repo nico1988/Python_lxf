@@ -1,0 +1,29 @@
+# -*- coding:utf-8 -*-
+import os
+print(1)
+abs(-100)
+print(abs(-100))
+print(all([1,2,3])) #all elements of the iterable are true
+print(all([])) # the iterable is empty
+print(any([])) # false
+print(any([1,2,3])) # true
+n = 1
+print(ascii(n))
+print(bin(120)) # 二进制
+print(format(10,'#b'))
+print(format(10,'b'))
+print(max(range(11)))
+print(int('1243'))
+print(float('12.3'))
+print(str(1))
+print(bool(1))
+print(bool('a'))
+print(bool(''))
+a = abs
+print(a(-1))
+print(hex(10))
+
+# 导入函数
+from define_function import my_abs
+print('这是从 别的文件 导入的函数')
+print(my_abs(-1))
