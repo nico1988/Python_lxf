@@ -20,5 +20,3 @@ for x,y in [(1,1),(2,3),(3,9)]:
     print(x,y)
 
 # 寻找最小值和最大值
-def findMinAndMax(L):
-    for in L
