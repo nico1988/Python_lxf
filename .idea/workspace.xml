@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Functional_Programming/HighOrderFunction/map_reduce.py" line="35" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="595a5bc0-3de3-4d85-a04f-02a8936423f7" name="Default" comment="python 高级特性 切片 迭代 列表生成式 生成器 迭代器">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Functional_Programming/HighOrderFunction/filter.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06_Functional_Programming/HighOrderFunction/sort.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Functional_Programming/HighOrderFunction/map_reduce.py" afterPath="$PROJECT_DIR$/Functional_Programming/HighOrderFunction/map_reduce.py" />
+      <change beforePath="$PROJECT_DIR$/Functional_Programming/HighOrderFunction/filter.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Functional_Programming/HighOrderFunction/highorderfunction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Functional_Programming/HighOrderFunction/map_reduce.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,31 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="highorderfunction.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functional_Programming/HighOrderFunction/highorderfunction.py">
+      <file leaf-file-name="filter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_Functional_Programming/HighOrderFunction/filter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="423">
+              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map_reduce.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functional_Programming/HighOrderFunction/map_reduce.py">
+      <file leaf-file-name="sort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06_Functional_Programming/HighOrderFunction/sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Functional_Programming/HighOrderFunction/filter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -84,10 +73,12 @@
         <option value="$PROJECT_DIR$/Functional_Programming/HighOrderFunction/highorderfunction.py" />
         <option value="$PROJECT_DIR$/Functional_Programming/HighOrderFunction/map_reduce.py" />
         <option value="$PROJECT_DIR$/Functional_Programming/HighOrderFunction/filter.py" />
+        <option value="$PROJECT_DIR$/06_Functional_Programming/HighOrderFunction/filter.py" />
+        <option value="$PROJECT_DIR$/06_Functional_Programming/HighOrderFunction/sort.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -120,12 +111,12 @@
             <path>
               <item name="liaoxuefeng" type="b2602c69:ProjectViewProjectNode" />
               <item name="liaoxuefeng" type="462c0819:PsiDirectoryNode" />
-              <item name="Functional_Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="06_Functional_Programming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liaoxuefeng" type="b2602c69:ProjectViewProjectNode" />
               <item name="liaoxuefeng" type="462c0819:PsiDirectoryNode" />
-              <item name="Functional_Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="06_Functional_Programming" type="462c0819:PsiDirectoryNode" />
               <item name="HighOrderFunction" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -150,38 +141,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.map_reduce">
-    <configuration name="Iterator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.sort">
+    <configuration name="filter (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_featrue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_Functional_Programming/HighOrderFunction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="liaoxuefeng" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_featrue/Iterator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_Functional_Programming/HighOrderFunction/filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_featrue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functional_Programming/HighOrderFunction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="liaoxuefeng" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_featrue/generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functional_Programming/HighOrderFunction/filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,24 +196,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="listComprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced_featrue" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="liaoxuefeng" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_featrue/listComprehensions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="map_reduce" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,20 +214,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_Functional_Programming/HighOrderFunction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="liaoxuefeng" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_Functional_Programming/HighOrderFunction/sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.listComprehensions" />
-      <item index="1" class="java.lang.String" itemvalue="Python.generator" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Iterator" />
-      <item index="3" class="java.lang.String" itemvalue="Python.highorderfunction" />
-      <item index="4" class="java.lang.String" itemvalue="Python.map_reduce" />
+      <item index="0" class="java.lang.String" itemvalue="Python.highorderfunction" />
+      <item index="1" class="java.lang.String" itemvalue="Python.map_reduce" />
+      <item index="2" class="java.lang.String" itemvalue="Python.filter" />
+      <item index="3" class="java.lang.String" itemvalue="Python.filter (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.map_reduce" />
-        <item index="1" class="java.lang.String" itemvalue="Python.highorderfunction" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Iterator" />
-        <item index="3" class="java.lang.String" itemvalue="Python.generator" />
-        <item index="4" class="java.lang.String" itemvalue="Python.listComprehensions" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.filter (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.filter" />
+        <item index="3" class="java.lang.String" itemvalue="Python.map_reduce" />
+        <item index="4" class="java.lang.String" itemvalue="Python.highorderfunction" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +283,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -301,7 +292,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1901099" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11597374" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1750547" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -486,8 +477,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functional_Programming/HighOrderFunction/filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_Functional_Programming/HighOrderFunction/filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_Functional_Programming/HighOrderFunction/sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
       </provider>
