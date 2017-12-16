@@ -13,6 +13,8 @@ print(sorted(['bob', 'about', 'Zoo', 'Credit'],key=str.lower))
 print(sorted(['abc','efd','Adsf','BDCD'],key=str.lower,reverse=True))
 
 # 对一组tuple进行排序
+
+# 这里不是太懂，过后再说
 L = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)]
 print(sorted(L))
 print(sorted(L,reverse=True))
